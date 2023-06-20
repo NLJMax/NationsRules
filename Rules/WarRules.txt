@@ -1,0 +1,58 @@
+VICTORY POINTS
+==============
+For deciding which unit wins in a clash, there are victory points.
+Each unit starts with 3 VP.
+More VP can be added or removed.
+
+These are the conditions:
+Tired: -1 point. Happens when a unit fights 3 times in a row.
+Starved: -1 point. Happens when a unit is not connected to a supply line.
+Active: +1 point. Happens when a unit is not fighting for 3 turns.
+Supported: +1 point. Happens when a unit is near an unit of another type.
+
+There are different types of units:
+Marines - Jungle Leaves
+Tanks - Stone Brick
+Airplanes - Iron Block
+Submarines - Prismarine Block
+Ships - Spruce Planks
+
+Tanks > Marines
+Airplanes > Tanks
+Ships > Airplanes
+Subs > Ships
+Marines > Subs
+">" Indicates that the unit to the left of the symbol gains more VP advantage.
+
+Supply Lines
+------------
+Supply lines - Flower Pots 
+Supply lines are connected from ships to the sea to soldiers on land.
+If a land unit does not have any, they get the "Starved" condition.
+
+Cities
+---------
+Troops defending the capital have a +2 VP condition.
+Troops defending provincial capitals gain a +1 VP condition.
+
+MILITARY FUNDING
+=============
+A nation can make each unit stronger by 1 VP or one specific type of unit stronger by 2 VP.
+This funding comes from spending 'richness' from trade routes by the rules of Economic Victory.
+
+Economic Victory
+---------------
+'Richness' is defined by the number of trade routes and factories. 
+Although the routes do remain if you use them, they will not be counted in the Economic Victory path.
+The affected routes may be reinstated given enough time or special measures are used.
+
+
+DIFFERENTIATION AND USATION
+===========================
+To indicate country of troop origin, there will be banners suited for each country.
+Each unit can move by 3 each turn, although this is reduced to one when moving through rivers and/or mountains.
+However, if you are a ship/sub/airplane, you can move through those areas in the 3 move rule. This depends on type of unit, of course.
+
+There will be a sign on each block stating their VP, and whole clusters can merge their VP together (Applies latterally, not vertically)
+In a cluster case, the VP of the winner is subtracted from the VP of the loser and will be rounded down to the nearest multiple of 3. 
+For each of these, 1 unit at the loser's side choosing will be removed from the winning side while all of the units from the losers side will be removed. 
