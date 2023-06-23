@@ -1,0 +1,80 @@
+VICTORY POINTS
+===================
+This game has victory points („VP“) for deciding which unit wins in a fight. Each unit starts with 3 VP. More VP can be added or removed, as can be seen below.
+
+COMBAT RULES
+===================
+Spawning -
+A military base allows you to build 2 ground regiments („units“).
+A naval base allows you to build 2 naval flotillas („units“).
+
+Unit Types -
+A regiment or flotilla („unit“) is represented by the following:
+Infantry - Leaves
+Armored - Stone Brick
+Airplanes - Iron Block
+Artillery - Dispenser
+Submarines - Prismarine Block
+Surface Navy - Spruce Planks
+Carrier Navy - Birch Planks
+
+Placement -
+Placing troops (starting and reinforcements) must be on friendly terrain and on your side of a body of water. Bodies of water are split in two unless they are too small. During sea invasions, the surrounding sea is considered friendly.
+Carriers are able to spawn 1 plane Unit at every even turn (excluding 0).
+
+Marking -
+You must use a banner of your color (or the closest approximation of it) to mark your units. The banner must be placed in a cardinal direction and it determines the direction the troop is facing.
+
+Divisions -
+Divisions („Clusters“) are a group of friendly units. Their size can range from a minimum of 2 units to a maximum of all of your units. Diagonal units are not in a division unless another unit connects them.
+
+Movement -
+During a sea invasion, artillery is able to move 2 blocks, armor and infantry can move 3, and planes/subs/naval are always 4.
+After landfall, artillery can move 3 blocks (+1 when in a 2 block range of allied infantry), while armor, infantry and planes can move 4 blocks. Sea units cannot go on land.
+Diagonal movement is allowed.
+
+Attacking -
+To attack, you must be adjacent to any enemy unit in a LOS („line of sight“). Artillery ignores LOS and has a range of two blocks.
+
+Attacking Affinities -
+Units can have advantages to other units gaining +1 VP:
+Infantry beats Artillery.
+Armor beat Infantry.
+Artillery beat Armor.
+Airplanes beat Submarines.
+Naval beat Airplanes.
+Submarines beat Navy.
+
+Attacking Bonuses -
+Attacks from the front/diagonally infront are frontal attacks. No VP gain.
+Attacks from the side are flank attacks and grant the attacker +1 VP.
+Attacks from behind/diagonally behind are rear attacks, which grants the attacker +2 VP.
+Troops defending a naval or military base have a +2 VP advantage.
+Troops defending the national capital have a +2 VP advantage.
+Troops defending cities and regional capitals have a +1 VP advantage.
+Establishing air supremacy (having more then twice the plane units your enemy has) grants a +1 VP advantage.
+
+Formula -
+To calculate losses, you calculate X-Y with X being the enemy and Y being allied units. Floor to the nearest multiple of 5 and divide the result by 5. Positive values are your losses, negative values are enemy losses.
+​Equivalent py script:
+import math
+
+losses = abs(math.floor((enemy - allied)/5)
+if losses > 0:
+    print(f"The Enemy lost {losses} units.")
+elif losses < 0:
+    print(f"The Allies lost {losses} units.")
+else:
+    print("No losses")
+
+NUCLEAR WEAPONS
+===================
+Nuclear weapons need to be explicitly researched and are split into the following categories:
+Tactical - Destroys everything in a 3x3 block area from the epicentre.
+Strategical - Destroys everything in a 5x5 block area from the epicentre.
+Deterent - Destroys everything in a 7x7 block area from the epicentre.
+
+Detonating a nuclear device requires any of the three following criteria to be met:
+There must be an artillery unit (artillery range used, no LOS).
+There must be a plane unit (2 block range used, LOS).
+There must be finished research on missile technology (infinite range, no LOS).
