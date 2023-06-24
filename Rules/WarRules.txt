@@ -192,6 +192,9 @@ Clusters are a group of friendly units. This can be at a minimum of 2 units and 
 
 
 Diagonal units are not clusters unless another unit connects the two.
+
+Only the units which touch each other can fight in a cluster
+
 In case of a battle between more countries but still two factions, the countries that are your allies are counted in the friendly cluster whilst the ones that are not your allies are counted in the enemy cluster. In case of a battle between more countries but with more than two factions, the same applies but you need to choose which faction's cluster to attack. You can't attack two clusters at the same time
 
 
