@@ -1,59 +1,199 @@
-VICTORY POINTS
+RULEBOOK ED. 3
+
+
+
+
+
+Victory Points
+
+
 ==============
+
+
 For deciding which unit wins in a clash, there are victory points.
+
+
 Each unit starts with 3 VP.
+
+
 More VP can be added or removed.
 
+
+
+
+
+
 There are different types of units:
+
+
 Infantry - Jungle Leaves
+
+
 Tanks - Stone Brick
+
+
 Airplanes - Iron Block
+
+
 Submarines - Prismarine Block
+
+
 Navy - Spruce Planks
+
+
 Artillery - Redstone repeaters
 
+
+
+
+
+
 Infantry > Artillery
+
+
 Tanks > Infantry
+
+
 Artillery > Tanks
+
+
 Airplane > Submarines
+
+
 Navy > Airplanes
+
+
 Submarines > Navy
+
+
+
+
+
 
 ">" Indicates that the unit to the left of the symbol gains +1 VP advantage.
 
+
+
+
+
+
 Cities
+
+
 ---------
+
+
 Troops defending the capital have a +2 VP condition.
-Troops defending cities (including regional capital) gain a +1 VP condition.
+
+
+Troops defending cities (including regional capital) gain a +1 VP condition. + 1VP per military base (but no more than 10 to make sure no one exploits)
+
+
+
+
+
+
 
 RULES
+
+
 =======
-1 military base = 4 units of your choosing
+
+
+No Nukes and missiles in war (For gameplay purposes) 
+1 military base = 5 units of your choosing
+
+
 Diagonal moving is allowed
+
+
+
+
+
 
 Placing troops (starting and reinforcements) must be on friendly terrain and on your side of a body of water. Water bodies are split in two unless they are too small.
 
+
+
+
+
+
 You must use a banner of your color to mark your troops. In the case of artillery, put your color's wool under it.
+
+
 The direction a troop is facing is dependent on the banner direction, and in the case of artillery, the repeater's direction.
+
+
 NOTE: The banners MUST always point in a CARDINAL direction. NO DIAGONALS.
 
+
+
+
+
+
 To attack, you must be adjacent to any block.
+
+
 During sea invasions, the surrounding sea is considered friendly.
+
+
 In sea invasions, Artillery gets 2 block movements, Tanks+infantry get 3, and planes/subs/boats are always 4.
-On land, Artillery gets 3-4 block movements (proximity to infantry), Tanks+infantry get 4, and planes get 4. 
+
+
+On land, Artillery gets 3 block movements, Tanks+infantry get 4, and planes get 4.
+
+
 Sea units cannot go on land.
+
+
 Artillery is the only ranged unit with a 5x5 range.
 
+
+
+
+
+
 Attacks from behind/diagonal behind are rear attacks, which give the attacker +2 VP
+
+
 Attacks from the front/diagonal front are frontal attacks. No VP gain.
+
+
 Attacks from the side are flank attacks. +1 VP gain.
 
-To count losses, you do X-Y with X being the smaller and Y being the larger.
-Because this turns negative, use absolute value to find the positive and round down to the nearest multiple of 5. 
+
+
+
+
+
+To count losses, you do X-Y with X being the smaller and Y being the larger. X is the winner. (If there is a tie (result 0) then no one loses anything)
+
+
+Because this turns negative, use absolute value to find the positive and round down to the nearest multiple of 5.
+
+
 This is not rounding up, only down. A 4 would be a 0.
+
+
 Divide that multiple by 5 and this final total is the number of units your enemy can take from you.
 
+
+
+
+
+
 Clusters
+
+
 -----------
+
+
 Clusters are a group of friendly units. This can be at a minimum of 2 units and a maximum of all of your units.
+
+
 Diagonal units are not clusters unless another unit connects the two.
+In case of a battle between more countries but still two factions, the countries that are your allies are counted in the friendly cluster whilst the ones that are not your allies are counted in the enemy cluster. In case of a battle between more countries but with more than two factions, the same applies but you need to choose which faction's cluster to attack. You can't attack two clusters at the same time
+
+
+
+
